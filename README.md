@@ -27,4 +27,9 @@ php artisan breeze:install                    // install the breeze into project
 - Create model and run migration in one command
 ```
 php artisan make:model Note -m
+php artisan migrate            // execute the migration file to create table in database
 ```
+
+- Create resource controller to manage CRUD operation of the Model
+```
+php artisan make:controller NoteController --resource 
