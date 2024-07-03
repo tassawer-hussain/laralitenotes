@@ -23,3 +23,8 @@ A simple Laravel web application to manage the lite notes.
 composer install laravel/breeze --dev         // install the breeze package
 php artisan breeze:install                    // install the breeze into project folder
 ```
+
+- Create model and run migration in one command
+```
+php artisan make:model Note -m
+```
